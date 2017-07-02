@@ -1,3 +1,30 @@
+# Le Space UG
+
+## Todo
+- improve google search/ads  
+- create position update app for ios
+- create position update app in react-native
+- enable Facebook profile
+    --necessary steps write blog entry   
+- upload Android Webrtc project into GooglePlay 
+- upload iOS Webrtc Project into Appstore
+
+##thoughts
+- google maps do not work very good in korea as style of map seems not changable too! https://snazzymaps.com/style/108558/solutioncube-dark try openstreetmap as alternative
+- read gps article about apps
+	- https://www.cnet.com/news/location-tracking-apps/
+
+## Done
+- 2017-06-22 modified grayscale.js to support load of location by latlng.json
+- 2017-06-22 modified gulpfile.js to suppport ftp upload
+- 2017-06-21 create pullrequest for https://github.com/Le-Space/startbootstrap-grayscale
+- 2017-06-20 create position update app for android
+- 2017-06-20 create fork https://github.com/Le-Space/startbootstrap-grayscale 
+- 2017-06-11 added gulp-prompt and vinyl-ftp to gulpfile.js
+- 2017-06-11 added ftp server on development system
+- 2017-06-11 read position from JSON file 
+- 2017-06-11 update map below website
+- 2017-06-11 test and start with simple Python HTTP-Server ``python -m SimpleHTTPServer 8080``
 # [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
@@ -12,13 +39,6 @@ To use this template, choose one of the following options to get started:
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
 
-## gps2ftp - Android App
-Try the free [gps2ftp android app](https://play.google.com/store/apps/details?id=de.le_space.gps2ftp) (and widget) to update the google map at the end this template via ftp. Created by Nico Krause (https://twitter.com/inspiraluna)
-![Image of gps2ftp](https://github.com/Le-Space/gps2ftp/raw/master/marketing/ic_launcher/web_smaller.png)
-
-[Contribute to gps2ftp on GitHub](https://github.com/Le-Space/gps2ftp)
-
-
 ## Creator
 
 Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
@@ -30,4 +50,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/gh-pages/LICENSE) license.
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
