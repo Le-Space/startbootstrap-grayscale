@@ -36,6 +36,8 @@ var currentPosition = {lat:11.9296,lng:79.8330, zoom:15}; //Pondicherry default
 
 // Google Maps Scripts
 var map = null;
+var lastAddress = "";
+
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
@@ -46,6 +48,9 @@ function init(){
     $.getJSON("latlng.json", function(json) {
         if(json){
             currentPosition = json;
+            if(currentPosition.lastAddress!=null){
+                 $( "#lastAddress" ).append( currentPosition.lastAddress);
+            }
             load(); 
         }else{
             load(); 

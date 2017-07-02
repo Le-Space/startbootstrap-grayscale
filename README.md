@@ -1,6 +1,8 @@
 # Le Space UG
 
 ## Todo
+- add favicon
+- add le space logo
 - improve google search/ads  
 - create position update app for ios
 - create position update app in react-native

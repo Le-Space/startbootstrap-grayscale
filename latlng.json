@@ -1,6 +1,10 @@
 {
-    "lat": "48.41141",
-    "lng": "12.76023",
-    "zoom":15
+"lat": "40.371182",
+"lng": "49.845827",
+"zoom": 11,
+"googleMapsApiKey": "AIzaSyCl5RYonTX2Pg83Lvys7cjlcQTrQrgWRm4",
+"lastAddress": "Zarifa Aliyeva St, Baku, Aserbaidschan<br/>",
+"lastCity": "Baku",
+"lastCountryCode": "AZ"
 }
 
