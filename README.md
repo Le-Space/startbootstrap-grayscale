@@ -1,7 +1,10 @@
 # Le Space UG
 
 ## Todo
+- Rich-Cards
+    - https://developers.google.com/search/docs/guides/search-gallery
 - add favicon
+    - https://stackoverflow.com/questions/11893478/add-favicon-to-website
 - add le space logo
 - improve google search/ads  
 - create position update app for ios
@@ -17,6 +20,18 @@
 	- https://www.cnet.com/news/location-tracking-apps/
 
 ## Done
+- 02.07.2017 add JSON-LD
+    - google https://developers.google.com/search/docs/data-types/corporate-contacts
+    - critics 
+        http://www.dataversity.net/tag/json-ld/ 
+        http://manu.sporny.org/2014/json-ld-origins-2/
+    - https://json-ld.org/playground/
+    - http://www.markus-lanthaler.com/jsonld/playground/
+    - https://www.youtube.com/watch?v=UmvWk_TQ30A
+    - https://search.google.com/structured-data/-
+    testing-tool#url=http%3A%2F%2Fww
+- 02.07.2017 enable web statistics (google analytics) 
+- 02.07.2017 added lastAddress and "I'm here"
 - 2017-06-22 modified grayscale.js to support load of location by latlng.json
 - 2017-06-22 modified gulpfile.js to suppport ftp upload
 - 2017-06-21 create pullrequest for https://github.com/Le-Space/startbootstrap-grayscale
